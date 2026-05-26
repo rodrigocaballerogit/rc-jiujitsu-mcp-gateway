@@ -15,7 +15,7 @@ PROFESSORS: dict[str, dict] = {
     },
     "ramon": {
         "name":  "Ramón Jiménez",
-        "phone": None,
+        "phone": "524421458290",
         "gym":   "RC Jiu Jitsu Querétaro",
         "city":  "Querétaro",
     },
