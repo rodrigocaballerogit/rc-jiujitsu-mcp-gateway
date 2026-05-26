@@ -2,7 +2,7 @@ import sqlite3
 from datetime import datetime
 from pathlib import Path
 
-DB_PATH = Path(__file__).parent / "leads.db"
+DB_PATH = Path("/tmp/leads.db") if Path("/tmp").exists() else Path(__file__).parent / "leads.db"
 
 
 def _init_db() -> None:
